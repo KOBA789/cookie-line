@@ -1,0 +1,16 @@
+{
+  "author": "KOBA789 <kobahide789@gmail.com> (http://koba789.com/)",
+  "name": "cookie-line",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": "~0.6.6"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
