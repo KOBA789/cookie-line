@@ -2,7 +2,7 @@ var cookie = require('../lib');
 var http = require('http');
 
 http.createServer(function (req, res) {
-  var accessor = cookie.createAccessor(req, res);
-  accessor.set('hoge', 'foo');
-  res.end(accessor.get('hoge'));
+  var cookies = cookie(req, res);
+  cookies.set('hoge', 'bar', {domain: '.local.koba789.com'});
+  res.end(cookies.get('hoge'));
 }).listen(8124);
