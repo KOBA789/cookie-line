@@ -9,8 +9,12 @@
     "test": "mocha"
   },
   "engines": {
-    "node": "~0.6.6"
+    "node": ">=0.6"
   },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "should": "*"
+  },
+  "optionalDependencies": {},
+  "main": "./lib/index.js"
 }
